@@ -16,5 +16,18 @@
         </dependency>
   </dependencies>
   
+  <distributionManagement>
+    <repository>
+        <id>release-repository</id>
+        <name>Release Repository</name>
+        <url>http://10.20.30.4:8061/nexus/content/repositories/releases</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshot-repository</id>
+        <name>Snapshot Repository</name>
+        <url>http://10.20.30.4:8061/nexus/content/repositories/snapshots</url>
+    </snapshotRepository>
+   </distributionManagement>
+  
        
 </project>
